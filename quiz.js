@@ -61,7 +61,11 @@ if (correct == 3) {
   document.write("<img src='http://www.psdgraphics.com/file/bronze-star.jpg' >");
 }
 
-else {
+if (correct == 2 || correct == 1) {
   document.write("<h3>Better Luck Next Time!</h3>")
   document.write("<img src='http://images.moneysavingexpert.com/images/sadface.jpg' >");
+}
+
+else {
+  
 }
